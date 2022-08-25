@@ -1,0 +1,9 @@
+.user-page{
+    max-width: calc(100vw/3);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 30px;
+    background-color: var(--blue);
+}

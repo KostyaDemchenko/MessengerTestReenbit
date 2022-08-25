@@ -1,0 +1,12 @@
+.user-info{
+    display: flex;
+    align-items: center;
+    max-width: 450px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.user-info .img-box{
+    position: relative;
+}
