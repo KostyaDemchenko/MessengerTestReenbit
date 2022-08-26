@@ -1,0 +1,6 @@
+.user-messages{
+    height: calc(100vh - 429px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: var(--blue);
+}

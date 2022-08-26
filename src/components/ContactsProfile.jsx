@@ -1,17 +1,18 @@
 import React from "react";
 import '../components-style/UserInfo.css'
+import '../components-style/ContactsProfile.css';
 import avatar from '../img/avatars/avatar1.jpg'
 
-const UserInfo = () => {
+const ContactsProfile = () => {
     return(
-        <div className="user-info">
+        <div className="contacts-profile">
             <div className="img-box">
                 <img className="avatar" src={avatar} alt="avatar" />
-                <div className="user-status" />
+                <div className="contacts-status" />
             </div>
-            <p className="UserName"> Kostya Demchenko </p>
+            <p className="contacts-name"> Enrique Diaz </p>
         </div>
-    );
+    )
 }
 
-export default UserInfo;
+export default ContactsProfile;

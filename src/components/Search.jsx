@@ -5,10 +5,9 @@ import '../components-style/Search.css'
 const Search = () => {
     return(
         <div className="conatiner-search">
-            <div class="search">
+            <div className="search">
                 <input type="text" className="searchTerm" placeholder="Search chats" />
-                <button type="submit" className="searchButton">
-                </button>
+                <button type="submit" className="searchButton" />
             </div>
         </div>
     )

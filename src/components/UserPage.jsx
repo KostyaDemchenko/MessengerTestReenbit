@@ -9,7 +9,7 @@ const UserPage = () => {
             <UserInfo />
             <Search />
         </div>
-    )
+    );
 }
 
 export default UserPage;

@@ -1,0 +1,35 @@
+.contacts-profile{
+    padding: 25px 30px;
+    max-height: 150px;
+    background-color: var(--dark-blue);
+    border-bottom: 1px solid var(--white);
+    display: flex;
+}
+
+.contacts-profile .avatar{
+    margin-right: 25px;
+    
+}
+
+.contacts-profile .img-box{
+    position: relative;
+}
+
+.contacts-name{
+    color: var(--white);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.contacts-status{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color:var(--green);
+    bottom: 0;
+    right: 0;
+    border-radius: 50vw;
+    transform: translate(-25px, 0);
+}

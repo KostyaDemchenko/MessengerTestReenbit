@@ -5,10 +5,11 @@ import Chat from './components/Chat';
 
 const App = () => {
   return (
-    <div className='app-wrapper'>
-      <Nav />
-      <Chat />
-    </div>);
+      <div className='app-wrapper'>
+        <Nav />
+        <Chat />
+      </div>
+    );
 }
 
 export default App;
