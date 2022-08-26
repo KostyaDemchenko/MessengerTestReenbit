@@ -23,7 +23,7 @@
     background: red;
 }
 
-.messagess:nth-child(2) {
+/* .messagess:nth-child(2) {
     background: rgb(0, 255, 221);
 }
 
@@ -37,4 +37,4 @@
 
 .messagess:nth-child(5) {
     background: rgb(55, 0, 255);
-}
+} */

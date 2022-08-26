@@ -5,7 +5,7 @@ const MessagesHolder = () => {
     return(
         <div className="messages-holder">
             <div className="messages-holder-wrapper">
-                <div className="messagess">
+                {/* <div className="messagess">
                 </div>
                 <div className="messagess">
                 </div>
@@ -14,7 +14,7 @@ const MessagesHolder = () => {
                 <div className="messagess">
                 </div>
                 <div className="messagess">
-                </div>
+                </div> */}
             </div>
         </div>
     );
