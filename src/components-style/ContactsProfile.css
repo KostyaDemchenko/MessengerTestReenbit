@@ -36,5 +36,5 @@
     bottom: 0;
     right: 0;
     border-radius: 50vw;
-    transform: translate(-25px, 0);
+    transform: translate(-25px, -5px);
 }

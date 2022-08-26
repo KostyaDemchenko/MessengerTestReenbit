@@ -1,0 +1,18 @@
+.selected-user-chat{
+    background-color: var(--blue);
+}
+
+.selected-user-chat-wrapper{
+    padding: 25px 50px;
+    display: flex;
+    align-items: center;
+}
+
+.selected-user-chat-wrapper .img-box{
+    position: relative;
+}
+
+.selected-user-chat-wrapper .avatar{
+    margin-right: 25px;
+}
+

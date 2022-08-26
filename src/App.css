@@ -28,6 +28,10 @@ body {
   font-family: var(--fam-fam);
 }
 
+.app-wrapper{
+  display: flex;
+}
+
 .avatar {
   max-width: 100px;
   width: 100%;

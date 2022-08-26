@@ -1,0 +1,10 @@
+.chat{
+    /* max-width: calc(100vw/3*2); */
+    width: 100%;
+    /* background-color: red; */
+}
+
+.chat-wrapper{
+    display: flex;
+    flex-direction: column;
+}
