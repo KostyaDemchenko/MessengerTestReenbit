@@ -1,0 +1,40 @@
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.messages-holder {
+    background-color: var(--dark-blue);
+    height: calc(100vh - 154px - 114px);
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.messages-holder-wrapper {
+    overflow: auto;
+    max-width: 1180px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.messagess {
+    width: 100%;
+    height: 300px;
+    background: red;
+}
+
+.messagess:nth-child(2) {
+    background: rgb(0, 255, 221);
+}
+
+.messagess:nth-child(3) {
+    background: rgb(0, 255, 0);
+}
+
+.messagess:nth-child(4) {
+    background: rgb(0, 251, 255);
+}
+
+.messagess:nth-child(5) {
+    background: rgb(55, 0, 255);
+}

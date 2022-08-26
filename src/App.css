@@ -30,6 +30,7 @@ body {
 
 .app-wrapper{
   display: flex;
+  max-height: 100vh;
 }
 
 .avatar {

@@ -1,45 +1,45 @@
 @import '../App.css';
 
-.conatiner-search{
-    width: 100%;
+.conatiner-search {
+  width: 100%;
 }
 
 .search {
-    width: 100%;
-    max-width: 580px;
-    position: relative;
-    display: flex;
-    position: relative;
-    margin: 0 auto;
-  }
-  
-  .searchTerm {
-    width: 100%;
-    border: none;
-    border-radius: 50vw;
-    outline: none;
-    background-color: var(--dark-blue);
-    padding: 17px 25px;
-    color: var(--white);
-    font-size: 20px;
-  }
-  
-  .searchTerm:focus{
-    color: var(--white);
-  }
-  
-  .searchButton {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 40px;
-    height: 40px;
-    border: none;
-    text-align: center;
-    background-color: var(--clear);
-    border-radius: 50vw;
-    cursor: pointer;
-    transform: translate(-25px, 15%);
-    background-repeat: no-repeat;
-    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M24.0202 24.0202L33.3333 33.3333' stroke='white' stroke-width='2' stroke-linecap='round'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M16.6667 26.6667C22.1895 26.6667 26.6667 22.1895 26.6667 16.6667C26.6667 11.1438 22.1895 6.66666 16.6667 6.66666C11.1438 6.66666 6.66667 11.1438 6.66667 16.6667C6.66667 22.1895 11.1438 26.6667 16.6667 26.6667Z' stroke='white' stroke-width='2'/%3E%3C/svg%3E%0A");
-  }
+  width: 100%;
+  max-width: 580px;
+  position: relative;
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+}
+
+.searchTerm {
+  width: 100%;
+  border: none;
+  border-radius: 50vw;
+  outline: none;
+  background-color: var(--dark-blue);
+  padding: 17px 25px;
+  color: var(--white);
+  font-size: 20px;
+}
+
+.searchTerm:focus {
+  color: var(--white);
+}
+
+.searchButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  border: none;
+  text-align: center;
+  background-color: var(--clear);
+  border-radius: 50vw;
+  cursor: pointer;
+  transform: translate(-25px, 15%);
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M24.0202 24.0202L33.3333 33.3333' stroke='white' stroke-width='2' stroke-linecap='round'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M16.6667 26.6667C22.1895 26.6667 26.6667 22.1895 26.6667 16.6667C26.6667 11.1438 22.1895 6.66666 16.6667 6.66666C11.1438 6.66666 6.66667 11.1438 6.66667 16.6667C6.66667 22.1895 11.1438 26.6667 16.6667 26.6667Z' stroke='white' stroke-width='2'/%3E%3C/svg%3E%0A");
+}
