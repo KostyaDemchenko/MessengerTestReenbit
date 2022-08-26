@@ -6,6 +6,10 @@
     display: flex;
 }
 
+.contacts-profile:hover, .contacts-profile:focus{
+    background-color: var(--blue);
+}
+
 .contacts-profile .avatar{
     margin-right: 25px;
     
@@ -18,8 +22,9 @@
 .contacts-name{
     color: var(--white);
     font-weight: 400;
-    font-size: 32px;
+    font-size: 22px;
     line-height: 40px;
+    margin: 0;
 }
 
 .contacts-status{
