@@ -1,4 +1,4 @@
-.user-info{
+.user-info {
     display: flex;
     align-items: center;
     max-width: 450px;
@@ -7,6 +7,6 @@
     margin-bottom: 40px;
 }
 
-.user-info .img-box{
+.user-info .img-box {
     position: relative;
 }

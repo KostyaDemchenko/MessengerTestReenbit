@@ -1,10 +1,10 @@
-.messages{
+.messages {
     width: 100%;
     max-height: 130px;
     background-color: var(--blue);
 }
 
-.messages p{
+.messages p {
     font-weight: 500;
     font-size: 56px;
     line-height: 68px;
